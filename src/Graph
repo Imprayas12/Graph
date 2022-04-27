@@ -50,3 +50,13 @@ Disconnected Graph - There will exist at least one vertex in graph which won't b
                                         {6: {0,0,0,0,1,0}}
        O(1) - To check if any two vertices are connected.
        O(n) - To check the status of any one node.
+
+
+DFS Traversal
+
+
+   2 - 1         Source = 1
+   |   |         1. Check if source is visited. If not then mark it visited.
+   3 - 4         2. Go to last adjacent vertex.
+   |             3. If not visited, Repeat the process.
+   5 - 6         4. If already visited then RETURN.
